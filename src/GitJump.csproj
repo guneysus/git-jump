@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>git-jump</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <Version>0.0.6</Version>
+    <PackageId>GitJump</PackageId>
+    <Authors>Ahmed Şeref Güneysu</Authors>
+    <Product>Git Jump</Product>
+    <AssemblyName>git-jump</AssemblyName>
+    <RootNamespace>GitJump</RootNamespace>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CliWrap" Version="3.3.2" />
+    <PackageReference Include="Spectre.Console" Version="0.39.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GitSwitch": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\AhmedGuneysu\\source\\repos\\automation-dashboard.git\\AutomationDashboard"
+    }
+  }
+}
