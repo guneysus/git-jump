@@ -24,3 +24,5 @@ $ git jump
     releases/v1.6.0
     releases/v1.7.0
 ```
+
+![Demo](WindowsTerminal_kpAJP1kYgt.gif )
