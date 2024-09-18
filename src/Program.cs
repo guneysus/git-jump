@@ -5,8 +5,17 @@ using System.Text;
 
 var stdOutBuffer = new StringBuilder();
 
+/*
+git branch --list --all --no-color --format="%(refname:short)"
+ */
 _ = await Cli.Wrap("git")
-    .WithArguments("branch")
+    .WithArguments(new string[] { 
+        "branch",
+        "--list",
+        "--all",
+        "--no-color",
+        "--format=\"%(refname:short)\""
+    }, false)
     .WithStandardOutputPipe(PipeTarget.ToStringBuilder(stdOutBuffer))
     .ExecuteAsync();
 
